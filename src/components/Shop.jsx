@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Shop = () => {
   return (
     <div>
-    <h2>Buy Antiwar Shoes Rs50</h2>
-    <button className="btn btn-primary mx-2">-</button>
-    Add to cart
-    <button className="btn btn-primary mx-2">+</button>
-
+      <h2>Deposit/Withdraw money</h2>
+      <button className="btn btn-primary mx-2">-</button>
+      Update Balance
+      <button className="btn btn-primary mx-2">+</button>
     </div>
-  )
-}
+  );
+};
 
-export default Shop
+export default Shop;
